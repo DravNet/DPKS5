@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/repos/dpks5/advanced/hello1.ko := ccache arm-none-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ubuntu/repos/dpks5/advanced/hello1.ko /home/ubuntu/repos/dpks5/advanced/hello1.o /home/ubuntu/repos/dpks5/advanced/hello1.mod.o ;  true
